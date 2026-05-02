@@ -1,5 +1,8 @@
 # HiveDrops
 
+> **Layer C — Reference Primitive.** This is a public reference implementation. The wire format (see `SPEC.md` where present) is normative; this code is illustrative. Production-grade implementations of these specs run on the closed-source Hive Civilization platform with HSM-backed key custody, immutable transparency-log audit, multi-region sovereign federation, and SOC 2 / ISO 27001 / FedRAMP-track controls. Fork freely; conform to the spec.
+
+
 **Merkle-Rolled Metering for Usage-Based Settlement on Agent Infrastructure**
 
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
