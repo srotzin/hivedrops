@@ -2,6 +2,18 @@
 
 > **Layer C — Reference Primitive.** This is a public reference implementation. The wire format (see `SPEC.md` where present) is normative; this code is illustrative. Production-grade implementations of these specs run on the closed-source Hive Civilization platform with HSM-backed key custody, immutable transparency-log audit, multi-region sovereign federation, and SOC 2 / ISO 27001 / FedRAMP-track controls. Fork freely; conform to the spec.
 
+> ## ⏸️ Settlement Status: Anchor Contract Pending
+>
+> **HiveDrops is a reference implementation of USPTO 64/055,601 Claim C13 (Merkle-Rolled Metering with Threshold Settlement).** The cryptographic primitives — Ed25519 event signing, insertion-ordered Merkle accumulator, threshold logic, challenge protocol — are real and tested (69/69).
+>
+> **However, the Base L2 anchor contract is not yet deployed.** The `stubAnchorFn` in this repo is exactly that: a stub. Until the production anchor contract is live, this library is **specification-grade**, not settlement-grade.
+>
+> When the anchor contract ships, it will be added to the production [hive-mcp-attest](https://github.com/srotzin/hive-mcp-attest) umbrella as the `attest_drops_*` tool family. No new MCP server, no new Render head — just additional tools mounted on the existing perimeter.
+>
+> **Use today:** wire-format reference, audit by review, fork freely.
+> **Do not use today:** as a live settlement rail.
+
+
 
 **Merkle-Rolled Metering for Usage-Based Settlement on Agent Infrastructure**
 
